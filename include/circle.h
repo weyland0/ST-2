@@ -3,8 +3,8 @@
 #define INCLUDE_CIRCLE_H_
 
 class Circle {
-  Circle(double radius);
  public:
+ explicit Circle(double radius);
 
   void setRadius(double radius);
   void setFerence(double ference);
