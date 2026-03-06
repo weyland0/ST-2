@@ -3,8 +3,8 @@
 #define INCLUDE_CIRCLE_H_
 
 class Circle {
-public:
   Circle(double radius);
+ public:
 
   void setRadius(double radius);
   void setFerence(double ference);
@@ -13,7 +13,7 @@ public:
   double getFerence() const noexcept;
   double getArea() const noexcept;
 
-private:
+ private:
   double radius_;
   double ference_;
   double area_;
