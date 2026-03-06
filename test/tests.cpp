@@ -126,9 +126,9 @@ TEST(SetArea, Consistency) {
 
 TEST(Setters, OrderIndependent) {
   Circle c(5.0);
-  c.setArea(78.5398163397); 
+  c.setArea(78.5398163397);
   c.setRadius(5.0);
-  c.setFerence(31.4159265359); 
+  c.setFerence(31.4159265359);
   EXPECT_NEAR(c.getRadius(), 5.0, EPS);
   EXPECT_NEAR(c.getArea(), 25 * M_PI, EPS);
   EXPECT_NEAR(c.getFerence(), 10 * M_PI, EPS);
